@@ -62,3 +62,11 @@ $movie1->setGenre1('Sci-Fi');
 $movie1->setGenre2('Adventure');
 $movie1->setGenre3('Comedy');
 var_dump($movie1);
+
+$movie2 = new Movie('Nuovo Cinema Paradiso');
+$movie2->setYear(1988);
+$movie2->setNationality('Italy');
+$movie2->setOriginalLanguage('Italian');
+$movie2->setDirector('Giuseppe Tornatore');
+$movie2->setGenre1('Drama');
+var_dump($movie2);
