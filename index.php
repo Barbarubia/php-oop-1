@@ -52,3 +52,13 @@ class Movie
         return $this->director = $_director;
     }
 }
+
+$movie1 = new Movie('Back To The Future');
+$movie1->setYear(1985);
+$movie1->setNationality('USA');
+$movie1->setOriginalLanguage('English');
+$movie1->setDirector('Robert Zemeckis');
+$movie1->setGenre1('Sci-Fi');
+$movie1->setGenre2('Adventure');
+$movie1->setGenre3('Comedy');
+var_dump($movie1);
